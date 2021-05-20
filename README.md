@@ -1,4 +1,4 @@
-# FF11_route_finder
+# FF11_route_finder_online
 
 FF11 route finder using `networkx`; online edition(flask web-app)
 
