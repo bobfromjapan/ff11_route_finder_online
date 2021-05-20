@@ -15,8 +15,8 @@ cd path/to/app
 python application.py
 ```
 
-[ex) Japanese](./fig1)
-[ex) English](./fig2)
+![ex) Japanese](https://github.com/bobfromjapan/ff11_route_finder_online/blob/748bec79aba633990b8f97a536402026c3317421/fig1.jpg)
+![ex) English](https://github.com/bobfromjapan/ff11_route_finder_online/blob/748bec79aba633990b8f97a536402026c3317421/fig2.jpg)
 
 ## todo
 
