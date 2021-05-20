@@ -5,8 +5,8 @@ FF11 route finder using `networkx`; online edition(flask web-app)
 ## usage
 
 - requirement (installed by `pip`)
-    networkx
-    flask
+  - networkx
+  - flask
 
 - howtouse
 
