@@ -23,6 +23,7 @@ python application.py
 - deploying to elastic beanstalk or heroku
 - better html design
 - add map link
+- show hirtory
 
 ## thanks to
 
