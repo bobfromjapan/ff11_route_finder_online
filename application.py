@@ -68,7 +68,7 @@ def post():
         pass
 
     return render_template('index.html', \
-		message = 'sorce:{},dist:{},lang:{},walk:{}'.format(source,destination,lang,bywalk),\
+		message = 'sorce:{}, dist:{}, lang:{}, walk:{}'.format(source,destination,lang,bywalk),\
         result = result)
 
 if __name__ == "__main__" :
