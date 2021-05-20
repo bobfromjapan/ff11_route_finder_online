@@ -1,0 +1,1272 @@
+areas:
+  - name: sandoria
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: east ronfaure
+        weight: 1
+        transportation: walk
+      - name: west ronfaure
+        weight: 1
+        transportation: walk
+      - name: chateau doraguille
+        weight: 1
+        transportation: walk
+      - name: jeuno
+        weight: 100
+        transportation: airship
+  - name: bastok
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: zeruhn mines
+        weight: 1
+        transportation: walk
+      - name: north gustaberg
+        weight: 1
+        transportation: walk
+      - name: metalworks
+        weight: 1
+        transportation: walk
+      - name: jeuno
+        weight: 100
+        transportation: airship
+  - name: windurst
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: east sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: west sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: heavenstower
+        weight: 1
+        transportation: walk
+      - name: jeuno
+        weight: 100
+        transportation: airship
+  - name: jeuno
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: 大公宮
+        weight: 1
+        transportation: walk
+      - name: batallia downs
+        weight: 1
+        transportation: walk
+      - name: rolanberry fields
+        weight: 1
+        transportation: walk
+      - name: qufim island
+        weight: 1
+        transportation: walk
+      - name: sauromugue champaign
+        weight: 1
+        transportation: walk
+      - name: sandoria
+        weight: 100
+        transportation: airship
+      - name: bastok
+        weight: 100
+        transportation: airship
+      - name: windurst
+        weight: 100
+        transportation: airship
+      - name: kazham
+        weight: 100
+        transportation: airship
+  - name: kazham
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: jeuno
+        weight: 100
+        transportation: airship
+  - name: selbina
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: valkurm dunes
+        weight: 1
+        transportation: walk
+      - name: mhaura
+        weight: 50
+        transportation: ship
+  - name: mhaura
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: buburimu peninsula
+        weight: 1
+        transportation: walk
+      - name: selbina
+        weight: 50
+        transportation: ship
+      - name: aht urhgan whitegate
+        weight: 50
+        transportation: ship
+  - name: kazham
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: yuhtunga jungle
+        weight: 1
+        transportation: walk
+      - name: jeuno
+        weight: 50
+        transportation: ship
+  - name: rabao
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: western altepa desert
+        weight: 1
+        transportation: walk
+  - name: norg
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: sea serpent grotto
+        weight: 1
+        transportation: walk
+  - name: al zahbi
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: aht urhgan whitegate
+        weight: 1
+        transportation: walk
+      - name: bhaflau thickets
+        weight: 1
+        transportation: walk
+      - name: wajaom woodlands
+        weight: 1
+        transportation: walk
+  - name: aht urhgan whitegate
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: al zahbi
+        weight: 1
+        transportation: walk
+      - name: bhaflau thickets
+        weight: 1
+        transportation: walk
+      - name: wajaom woodlands
+        weight: 1
+        transportation: walk
+      - name: nashmau
+        weight: 50
+        transportation: ship
+      - name: mhaura
+        weight: 50
+        transportation: ship
+  - name: nashmau
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: aht urhgan whitegate
+        weight: 50
+        transportation: ship
+      - name: caedarva mire
+        weight: 1
+        transportation: walk
+  - name: west ronfaure
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: ghelsba outpost
+        weight: 1
+        transportation: walk
+      - name: bostaunieux oubliette
+        weight: 1
+        transportation: walk
+      - name: east ronfaure
+        weight: 1
+        transportation: walk
+      - name: la theine plateau
+        weight: 1
+        transportation: walk
+  - name: east ronfaure
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: ranguemont pass
+        weight: 1
+        transportation: walk
+      - name: king ranperre's tomb
+        weight: 1
+        transportation: walk
+      - name: west ronfaure
+        weight: 1
+        transportation: walk
+  - name: ghelsba outpost
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: west ronfaure
+        weight: 1
+        transportation: walk
+      - name: fort ghelsba
+        weight: 1
+        transportation: walk
+      - name: yughott grotto
+        weight: 1
+        transportation: walk
+  - name: fort ghelsba
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: ghelsba outpost
+        weight: 1
+        transportation: walk
+      - name: yughott grotto
+        weight: 1
+        transportation: walk
+  - name: yughott grotto
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: ghelsba outpost
+        weight: 1
+        transportation: walk
+      - name: fort ghelsba
+        weight: 1
+        transportation: walk
+      - name: horlais peak
+        weight: 1
+        transportation: walk
+  - name: king ranperre's tomb
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: east ronfaure
+        weight: 1
+        transportation: walk
+      - name: jugner forest
+        weight: 1
+        transportation: walk
+  - name: bostaunieux oubliette
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: west ronfaure
+        weight: 1
+        transportation: walk
+      - name: chateau doraguille
+        weight: 1
+        transportation: walk
+  - name: north gustaberg
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: bastok
+        weight: 1
+        transportation: walk
+      - name: south gustaberg
+        weight: 1
+        transportation: walk
+      - name: palborough mines
+        weight: 1
+        transportation: walk
+      - name: oldton movalpolos
+        weight: 1
+        transportation: walk
+      - name: dangruf wadi
+        weight: 1
+        transportation: walk
+      - name: konschtat highlands
+        weight: 1
+        transportation: walk
+  - name: south gustaberg
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: north gustaberg
+        weight: 1
+        transportation: walk
+      - name: bastok
+        weight: 1
+        transportation: walk
+      - name: dangruf wadi
+        weight: 1
+        transportation: walk
+  - name: zeruhn mines
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: bastok mines
+        weight: 1
+        transportation: walk
+      - name: palborough mines
+        weight: 1
+        transportation: walk
+      - name: korroloka tunnel
+        weight: 1
+        transportation: walk
+  - name: palborough mines
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: north gustaberg
+        weight: 1
+        transportation: walk
+      - name: zeruhn mines
+        weight: 1
+        transportation: walk
+      - name: waughroon shrine
+        weight: 1
+        transportation: walk
+  - name: dangruf wadi
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: north gustaberg
+        weight: 1
+        transportation: walk
+      - name: south gustaberg
+        weight: 1
+        transportation: walk
+  - name: korroloka tunnel
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: eastern altepa desert
+        weight: 1
+        transportation: walk
+      - name: western altepa desert
+        weight: 1
+        transportation: walk
+      - name: zeruhn mines
+        weight: 1
+        transportation: walk
+  - name: east sarutabaruta
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: windurst
+        weight: 1
+        transportation: walk
+      - name: west sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: tahrongi canyon
+        weight: 1
+        transportation: walk
+  - name: west sarutabaruta
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: windurst
+        weight: 1
+        transportation: walk
+      - name: east sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: giddeus
+        weight: 1
+        transportation: walk
+  - name: inner horutoto ruins
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: east sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: west sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: toraimarai canal
+        weight: 1
+        transportation: walk
+  - name: outer horutoto ruins(east magic tower)
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: east sarutabaruta
+        weight: 1
+        transportation: walk
+  - name: outer horutoto ruins(northwest magic tower)
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: west sarutabaruta
+        weight: 1
+        transportation: walk
+  - name: outer horutoto ruins(southwest magic tower)
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: west sarutabaruta
+        weight: 1
+        transportation: walk
+  - name: outer horutoto ruins(north magic tower)
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: east sarutabaruta
+        weight: 1
+        transportation: walk
+  - name: giddeus
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: west sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: balga's dais
+        weight: 1
+        transportation: walk
+  - name: toraimarai canal
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: windurst
+        weight: 1
+        transportation: walk
+      - name: inner horutoto ruins
+        weight: 1
+        transportation: walk
+  - name: la theine plateau
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: west ronfaure
+        weight: 1
+        transportation: walk
+      - name: spire of holla
+        weight: 1
+        transportation: walk
+      - name: jugner forest
+        weight: 1
+        transportation: walk
+      - name: valkurm dunes
+        weight: 1
+        transportation: walk
+  - name: konschtat highlands
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: pashhow marshlands
+        weight: 1
+        transportation: walk
+      - name: spire of dem
+        weight: 1
+        transportation: walk
+      - name: gusgen mines
+        weight: 1
+        transportation: walk
+      - name: valkurm dunes
+        weight: 1
+        transportation: walk
+      - name: north gustaberg
+        weight: 1
+        transportation: walk
+  - name: ordelle's caves
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: la theine plateau
+        weight: 1
+        transportation: walk
+  - name: gusgen mines
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: oldton movalpolos
+        weight: 1
+        transportation: walk
+      - name: konschtat highlands
+        weight: 1
+        transportation: walk
+  - name: valkurm dunes
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: la theine plateau
+        weight: 1
+        transportation: walk
+      - name: konschtat highlands
+        weight: 1
+        transportation: walk
+      - name: selbina
+        weight: 1
+        transportation: walk
+      - name: lufaise meadows
+        weight: 1
+        transportation: walk
+      - name: gustav tunnel
+        weight: 1
+        transportation: walk
+  - name: tahrongi canyon
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: meriphataud mountains
+        weight: 1
+        transportation: walk
+      - name: east sarutabaruta
+        weight: 1
+        transportation: walk
+      - name: buburimu peninsula
+        weight: 1
+        transportation: walk
+      - name: maze of shakhrami
+        weight: 1
+        transportation: walk
+      - name: spire of mea
+        weight: 1
+        transportation: walk
+  - name: buburimu peninsula
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: tahrongi canyon
+        weight: 1
+        transportation: walk
+      - name: mhaura
+        weight: 1
+        transportation: walk
+      - name: bibiki bay
+        weight: 1
+        transportation: walk
+      - name: maze of shakhrami
+        weight: 1
+        transportation: walk
+      - name: labyrinth of onzozo
+        weight: 1
+        transportation: walk
+  - name: maze of shakhrami
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: attohwa chasm
+        weight: 1
+        transportation: walk
+      - name: tahrongi canyon
+        weight: 1
+        transportation: walk
+      - name: buburimu peninsula
+        weight: 1
+        transportation: walk
+  - name: labyrinth of onzozo
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: buburimu peninsula
+        weight: 1
+        transportation: walk
+  - name: bibiki bay
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: buburimu peninsula
+        weight: 1
+        transportation: walk
+  - name: jugner forest
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: batallia downs
+        weight: 1
+        transportation: walk
+      - name: carpenters' landing
+        weight: 1
+        transportation: walk
+      - name: davoi
+        weight: 1
+        transportation: walk
+      - name: la theine plateau
+        weight: 1
+        transportation: walk
+      - name: king ranperre's tomb
+        weight: 1
+        transportation: walk
+  - name: carpenters' landing
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: jugner forest
+        weight: 1
+        transportation: walk
+      - name: sandoria
+        weight: 1
+        transportation: walk
+  - name: batallia downs
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: jeuno
+        weight: 1
+        transportation: walk
+      - name: jugner forest
+        weight: 1
+        transportation: walk
+      - name: beaucedine glacier
+        weight: 1
+        transportation: walk
+      - name: rolanberry fields
+        weight: 1
+        transportation: walk
+      - name: eldieme necropolis
+        weight: 1
+        transportation: walk
+  - name: davoi
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: monastic cavern
+        weight: 1
+        transportation: walk
+      - name: jugner forest
+        weight: 1
+        transportation: walk
+  - name: monastic cavern
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: davoi
+        weight: 1
+        transportation: walk
+  - name: eldieme necropolis
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: batallia downs
+        weight: 1
+        transportation: walk
+  - name: pashhow marshlands
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: rolanberry fields
+        weight: 1
+        transportation: walk
+      - name: beadeaux
+        weight: 1
+        transportation: walk
+  - name: rolanberry fields
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: pashhow marshlands
+        weight: 1
+        transportation: walk
+      - name: sauromugue champaign
+        weight: 1
+        transportation: walk
+      - name: jeuno
+        weight: 1
+        transportation: walk
+      - name: batallia downs
+        weight: 1
+        transportation: walk
+      - name: crawlers' nest
+        weight: 1
+        transportation: walk
+  - name: beadeaux
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: pashhow marshlands
+        weight: 1
+        transportation: walk
+      - name: qulun dome
+        weight: 1
+        transportation: walk
+  - name: qulun dome
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: beadeaux
+        weight: 1
+        transportation: walk
+  - name: crawlers' nest
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: rolanberry fields
+        weight: 1
+        transportation: walk
+  - name: meriphataud mountains
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: sauromugue champaign
+        weight: 1
+        transportation: walk
+      - name: tahrongi canyon
+        weight: 1
+        transportation: walk
+      - name: castle oztroja
+        weight: 1
+        transportation: walk
+      - name: sanctuary of zi'tah
+        weight: 1
+        transportation: walk
+  - name: sauromugue champaign
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: jeuno
+        weight: 1
+        transportation: walk
+      - name: meriphataud mountains
+        weight: 1
+        transportation: walk
+      - name: garlaige citadel
+        weight: 1
+        transportation: walk
+      - name: rolanberry fields
+        weight: 1
+        transportation: walk
+  - name: attohwa chasm
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: boneyard gully
+        weight: 1
+        transportation: walk
+      - name: maze of shakhrami
+        weight: 1
+        transportation: walk
+  - name: castle oztroja
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: meriphataud mountains
+        weight: 1
+        transportation: walk
+  - name: garlaige citadel
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: sauromugue champaign
+        weight: 1
+        transportation: walk
+  - name: beaucedine glacier
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: batallia downs
+        weight: 1
+        transportation: walk
+      - name: fei'yin
+        weight: 1
+        transportation: walk
+      - name: xarcabard
+        weight: 1
+        transportation: walk
+      - name: ranguemont pass
+        weight: 1
+        transportation: walk
+      - name: pso'xja
+        weight: 1
+        transportation: walk
+  - name: fei'yin
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: qu'bia arena
+        weight: 1
+        transportation: walk
+      - name: beaucedine glacier
+        weight: 1
+        transportation: walk
+  - name: ranguemont pass
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: beaucedine glacier
+        weight: 1
+        transportation: walk
+      - name: east ronfaure
+        weight: 1
+        transportation: walk
+  - name: pso'xja
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: beaucedine glacier
+        weight: 1
+        transportation: walk
+  - name: xarcabard
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: beaucedine glacier
+        weight: 1
+        transportation: walk
+      - name: uleguerand range
+        weight: 1
+        transportation: walk
+      - name: castle zvahl
+        weight: 1
+        transportation: walk
+  - name: castle zvahl
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: xarcabard
+        weight: 1
+        transportation: walk
+      - name: castle zvahl
+        weight: 1
+        transportation: walk
+  - name: uleguerand range
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: xarcabard
+        weight: 1
+        transportation: walk
+  - name: qufim island
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: escha - zi'tah
+        weight: 1
+        transportation: walk
+      - name: jeuno
+        weight: 1
+        transportation: walk
+      - name: delkfutt's tower
+        weight: 1
+        transportation: walk
+      - name: behemoth's dominion
+        weight: 1
+        transportation: walk
+      - name: misareaux coast
+        weight: 1
+        transportation: walk
+  - name: behemoth's dominion
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: qufim island
+        weight: 1
+        transportation: walk
+  - name: delkfutt's tower
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: qufim island
+        weight: 1
+        transportation: walk
+  - name: sanctuary of zi'tah
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: ro'maeve
+        weight: 1
+        transportation: walk
+      - name: meriphataud mountains
+        weight: 1
+        transportation: walk
+      - name: dragon's aery
+        weight: 1
+        transportation: walk
+      - name: boyahda tree
+        weight: 1
+        transportation: walk
+  - name: boyahda tree
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: sanctuary of zi'tah
+        weight: 1
+        transportation: walk
+      - name: dragon's aery
+        weight: 1
+        transportation: walk
+  - name: dragon's aery
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: sanctuary of zi'tah
+        weight: 1
+        transportation: walk
+      - name: boyahda tree
+        weight: 1
+        transportation: walk
+  - name: ro'maeve
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: sanctuary of zi'tah
+        weight: 1
+        transportation: walk
+      - name: hall of the gods
+        weight: 1
+        transportation: walk
+  - name: hall of the gods
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: ro'maeve
+        weight: 1
+        transportation: walk
+      - name: ru'aun gardens
+        weight: 1
+        transportation: walk
+  - name: eastern altepa desert
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: korroloka tunnel
+        weight: 1
+        transportation: walk
+      - name: western altepa desert
+        weight: 1
+        transportation: walk
+      - name: quicksand caves
+        weight: 1
+        transportation: walk
+  - name: western altepa desert
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: kuftal tunnel
+        weight: 1
+        transportation: walk
+      - name: eastern altepa desert
+        weight: 1
+        transportation: walk
+      - name: korroloka tunnel
+        weight: 1
+        transportation: walk
+      - name: rabao
+        weight: 1
+        transportation: walk
+      - name: quicksand caves
+        weight: 1
+        transportation: walk
+  - name: quicksand caves
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: western altepa desert
+        weight: 1
+        transportation: walk
+      - name: eastern altepa desert
+        weight: 1
+        transportation: walk
+  - name: cape teriggan
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: gustav tunnel
+        weight: 1
+        transportation: walk
+      - name: kuftal tunnel
+        weight: 1
+        transportation: walk
+      - name: valley of sorrows
+        weight: 1
+        transportation: walk
+  - name: gustav tunnel
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: valkurm dunes
+        weight: 1
+        transportation: walk
+      - name: cape teriggan
+        weight: 1
+        transportation: walk
+  - name: kuftal tunnel
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: western altepa desert
+        weight: 1
+        transportation: walk
+      - name: cape teriggan
+        weight: 1
+        transportation: walk
+  - name: valley of sorrows
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: cape teriggan
+        weight: 1
+        transportation: walk
+  - name: yuhtunga jungle
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: sea serpent grotto
+        weight: 1
+        transportation: walk
+      - name: kazham
+        weight: 1
+        transportation: walk
+      - name: ifrit's cauldron
+        weight: 1
+        transportation: walk
+      - name: yhoator jungle
+        weight: 1
+        transportation: walk
+  - name: sea serpent grotto
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: yuhtunga jungle
+        weight: 1
+        transportation: walk
+      - name: norg
+        weight: 1
+        transportation: walk
+  - name: yhoator jungle
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: yuhtunga jungle
+        weight: 1
+        transportation: walk
+      - name: den of rancor
+        weight: 1
+        transportation: walk
+      - name: ifrit's cauldron
+        weight: 1
+        transportation: walk
+      - name: temple of uggalepih
+        weight: 1
+        transportation: walk
+  - name: temple of uggalepih
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: yhoator jungle
+        weight: 1
+        transportation: walk
+      - name: den of rancor
+        weight: 1
+        transportation: walk
+  - name: den of rancor
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: temple of uggalepih
+        weight: 1
+        transportation: walk
+      - name: yhoator jungle
+        weight: 1
+        transportation: walk
+  - name: ifrit's cauldron
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: yuhtunga jungle
+        weight: 1
+        transportation: walk
+      - name: yhoator jungle
+        weight: 1
+        transportation: walk
+  - name: ru'aun gardens
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: hall of the gods
+        weight: 1
+        transportation: walk
+      - name: la'loff amphitheater
+        weight: 1
+        transportation: walk
+  - name: ve'lugannon palace
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: ru'aun gardens
+        weight: 1
+        transportation: walk
+  - name: shrine of ru'avitau
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: ru'aun gardens
+        weight: 1
+        transportation: walk
+  - name: oldton movalpolos
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: gusgen mines
+        weight: 1
+        transportation: walk
+      - name: north gustaberg
+        weight: 1
+        transportation: walk
+      - name: mine shaft #2716
+        weight: 1
+        transportation: walk
+  - name: newton movalpolos
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: mine shaft #2716
+        weight: 1
+        transportation: walk
+      - name: north gustaberg
+        weight: 1
+        transportation: walk
+  - name: mine shaft #2716
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: newton movalpolos
+        weight: 1
+        transportation: walk
+      - name: newton movalpolos
+        weight: 1
+        transportation: walk
+  - name: lufaise meadows
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: valkurm dunes
+        weight: 1
+        transportation: walk
+      - name: misareaux coast
+        weight: 1
+        transportation: walk
+      - name: tavnazian safehold
+        weight: 1
+        transportation: walk
+  - name: misareaux coast
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: qufim island
+        weight: 1
+        transportation: walk
+      - name: escha - ru'aun
+        weight: 1
+        transportation: walk
+      - name: tavnazian safehold
+        weight: 1
+        transportation: walk
+      - name: riverne
+        weight: 1
+        transportation: walk
+      - name: lufaise meadows
+        weight: 1
+        transportation: walk
+      - name: sacrarium
+        weight: 1
+        transportation: walk
+  - name: sacrarium
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: misareaux coast
+        weight: 1
+        transportation: walk
+  - name: sealion's den
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: tavnazian safehold
+        weight: 1
+        transportation: walk
+      - name: al'taieu
+        weight: 1
+        transportation: walk
+  - name: tavnazian safehold
+    survival_guide: True
+    home_point: True
+    destination:
+      - name: lufaise meadows
+        weight: 1
+        transportation: walk
+      - name: misareaux coast
+        weight: 1
+        transportation: walk
+      - name: sealion's den
+        weight: 1
+        transportation: walk
+      - name: phomiuna aqueducts
+        weight: 1
+        transportation: walk
+  - name: phomiuna aqueducts
+    survival_guide: True
+    home_point: False
+    destination:
+      - name: tavnazian safehold
+        weight: 1
+        transportation: walk
+      - name: misareaux coast
+        weight: 1
+        transportation: walk
+      - name: sealion's den
+        weight: 1
+        transportation: walk
+      - name: phomiuna aqueducts
+        weight: 1
+        transportation: walk
+  - name: riverne
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: monarch linn
+        weight: 1
+        transportation: walk
+      - name: misareaux coast
+        weight: 1
+        transportation: walk
+  - name: al'taieu
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: la theine plateau
+        weight: 1
+        transportation: walk
+      - name: temenos
+        weight: 1
+        transportation: walk
+      - name: tahrongi canyon
+        weight: 1
+        transportation: walk
+      - name: sealion's den
+        weight: 1
+        transportation: walk
+      - name: grand palace of hu'xzoi
+        weight: 1
+        transportation: walk
+      - name: konschtat highlands
+        weight: 1
+        transportation: walk
+  - name: grand palace of hu'xzoi
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: al'taieu
+        weight: 1
+        transportation: walk
+      - name: the garden of ru'hmet
+        weight: 1
+        transportation: walk
+  - name: the garden of ru'hmet
+    survival_guide: False
+    home_point: True
+    destination:
+      - name: grand palace of hu'xzoi
+        weight: 1
+        transportation: walk
+  - name: escha - zi'tah
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: qufim island
+        weight: 1
+        transportation: walk
+  - name: escha - ru'aun
+    survival_guide: False
+    home_point: False
+    destination:
+      - name: misareaux coast
+        weight: 1
+        transportation: walk

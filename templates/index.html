@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FF11_route_finder ~online~</title>
+  </head>
+  <body>
+	<h1>FF11_route_finder ~online~</h1>
+	<p>{{ message }}</p>
+	<form action="/" method="POST" enctype="multipart/form-data">
+		<div>
+			<label for="source">source：</label>
+			<input type="text" id="source" name="source" placeholder="source">	
+		</div>
+		<div>
+			<label for="destination">destination：</label>
+			<input type="text" id="destination" name="destination" placeholder="destination">	
+		</div>
+		<div>
+			<label for="bywalk">bywalk?:</label>
+			<input type="checkbox" id="bywalk" name="bywalk" value="True">
+		</div>
+			<label for="lang">japanese:</label>
+			<input type="radio" id="japanese" name="lang" value="japanese" checked="checked">
+			<label for="lang">english:</label>
+			<input type="radio" id="english" name="lang" value="english">
+		</div>
+		<div>
+			<input type="submit" value="submit">
+		</div>
+	</form>
+	<h2>result</h2>
+	<p>{{ result }}</p>
+  </body>
+</html>
