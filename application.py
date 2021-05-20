@@ -45,7 +45,6 @@ def get():
 		message = 'source', \
         result = 'none!')
 
-# postのときの処理	
 @app.route('/', methods=['POST'])
 def post():
     source = request.form.get('source')
