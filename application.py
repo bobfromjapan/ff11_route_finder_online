@@ -45,6 +45,7 @@ def get():
 		message = 'source', \
         result = 'none!')
 
+# postのときの処理	
 @app.route('/', methods=['POST'])
 def post():
     source = request.form.get('source')
@@ -71,4 +72,5 @@ def post():
         result = result)
 
 if __name__ == "__main__" :
-    app.run()
+    # app.run() # uncomment when test on local machine
+    app.run(debug=False, host='0.0.0.0', port=80)
