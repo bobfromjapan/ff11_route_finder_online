@@ -48,8 +48,10 @@ def get():
 # postのときの処理	
 @app.route('/', methods=['POST'])
 def post():
-    source = request.form.get('source')
-    destination = request.form.get('destination')
+    source_unesc = request.form.get('source')
+    source = Flask.escape(source_unesc)
+    destination_unesc = request.form.get('destination')
+    source = Flask.escape(destination_unesc)
     bywalk = request.form.get('bywalk')
 
     if bywalk is None:
