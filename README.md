@@ -20,7 +20,8 @@ python application.py
 
 ## todo
 
-- deploying to elastic beanstalk or heroku
+- ~~deploying to elastic beanstalk or heroku~~ deploy on AWS app runner! 
+  - https://uh3dkqvvdz.ap-northeast-1.awsapprunner.com/ (may be paused for saving money)
 - better html design
 - add map link
 - show hirtory
